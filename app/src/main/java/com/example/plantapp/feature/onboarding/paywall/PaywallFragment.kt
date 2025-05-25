@@ -1,12 +1,12 @@
 package com.example.plantapp.feature.onboarding.paywall
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.plantapp.databinding.FragmentPaywallBinding
-import android.content.Intent
 import com.example.plantapp.feature.home.HomeActivity
 
 class PaywallFragment : Fragment() {

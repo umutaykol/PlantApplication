@@ -6,12 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.example.plantapp.feature.home.home.screen.HomePageScreen
-import androidx.compose.runtime.*
 import com.example.plantapp.ui.theme.PlantAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 

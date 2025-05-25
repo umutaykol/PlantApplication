@@ -1,6 +1,8 @@
 package com.example.plantapp.feature.home.home.screen
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.padding
@@ -18,11 +20,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
-import com.example.plantapp.util.Roboto
-import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import com.example.plantapp.model.CategoryData
 import com.example.plantapp.ui.common.sampleCategories
+import com.example.plantapp.util.Roboto
 
 @Composable
 fun PlantCategoryCard(
