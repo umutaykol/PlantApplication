@@ -197,7 +197,7 @@ fun HomePageScreen(
 @RequiresApi(Build.VERSION_CODES.S)
 @Preview
 @Composable
-fun SearchSpaceFlightNewsScreenPreview() {
+fun HomePageScreenPreview() {
     HomePageScreen(
         sampleQuestions,
         sampleCategories
