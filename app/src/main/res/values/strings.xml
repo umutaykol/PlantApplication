@@ -1,12 +1,9 @@
 <resources>
     <string name="app_name">PlantApp</string>
     <string name="title_home">Home</string>
-    <string name="title_favorite">Favorite</string>
-    <string name="title_search">Search</string>
     <string name="title_diagnose">Diagnose</string>
     <string name="title_my_garden">My Garden</string>
     <string name="title_profile">Profile</string>
-
 
     <string name="error_message">An error occurred. Please try again.</string>
     <string name="retry">Retry</string>
@@ -28,17 +25,23 @@
     <string name="read_full_article">Read Full Article</string>
     <string name="share_article">Share Article</string>
 
-
     <!--    Get Started Screen-->
     <string name="get_started_welcome">Welcome to&#160;</string>
     <string name="get_started_identify">Identify more than 3000+ plants and 88%\naccuracy.</string>
     <string name="get_started_by_tapping"><![CDATA[By tapping next, you are agreeing to PlantID<br><u>Terms of Use</u> &amp; <u>Privacy Policy</u>.]]></string>
     <string name="get_started_button">Get Started</string>
 
-
-
     <!--    Onboarding Screen-->
     <string name="onboarding_one_button">CONTINUE</string>
     <string name="onboarding_one_take_a_photo">Take a photo to identify\nthe plant!</string>
+
+    <!-- For Onboarding One -->
+    <string name="onboarding_one_title_part1">Take a photo to&#160;</string>
+    <string name="onboarding_one_title_part2_highlight">identify</string>
+    <string name="onboarding_one_title_part3">the plant!</string>
+
+    <!-- For Onboarding Two -->
+    <string name="onboarding_two_title_part1">Get plant&#160;</string>
+    <string name="onboarding_two_title_part2_highlight">care guides</string>
 
 </resources>
