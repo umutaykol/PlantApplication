@@ -19,12 +19,14 @@ class OnboardingOneFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentOnboardingOneBinding.inflate(inflater, container, false)
+        setOnClickListeners()
+        return binding.root
+    }
 
+    fun setOnClickListeners() {
         binding.buttonContinue.setOnClickListener {
             findNavController().navigate(R.id.action_onboardingOne_to_onboardingTwo)
         }
-
-        return binding.root
     }
 
     override fun onDestroyView() {

@@ -19,10 +19,14 @@ class OnboardingTwoFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentOnboardingTwoBinding.inflate(inflater, container, false)
+        setOnClickListeners()
+        return binding.root
+    }
+
+    fun setOnClickListeners() {
         binding.buttonContinue.setOnClickListener {
             findNavController().navigate(R.id.action_onboardingTwo_to_paywall)
         }
-        return binding.root
     }
 
     override fun onDestroyView() {

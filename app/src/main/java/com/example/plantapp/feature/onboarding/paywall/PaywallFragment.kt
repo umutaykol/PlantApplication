@@ -19,11 +19,11 @@ class PaywallFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentPaywallBinding.inflate(inflater, container, false)
-        setClickListeners()
+        setOnClickListeners()
         return binding.root
     }
 
-    fun setClickListeners() {
+    fun setOnClickListeners() {
         binding.closeButton.setOnClickListener {
             startActivity(Intent(requireContext(), HomeActivity::class.java))
             requireActivity().finish()

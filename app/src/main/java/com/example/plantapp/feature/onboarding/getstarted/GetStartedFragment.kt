@@ -26,12 +26,14 @@ class GetStartedFragment : Fragment() {
         _binding = FragmentGetStartedBinding.inflate(inflater, container, false)
         val text = getString(R.string.get_started_by_tapping)
         binding.textByTapping.text = Html.fromHtml(text, Html.FROM_HTML_MODE_LEGACY)
+        setOnClickListeners()
+        return binding.root
+    }
 
+    fun setOnClickListeners() {
         binding.buttonGetStarted.setOnClickListener {
             findNavController().navigate(R.id.action_getStarted_to_onboardingOne)
         }
-
-        return binding.root
     }
 
     override fun onDestroyView() {
