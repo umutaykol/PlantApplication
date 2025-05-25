@@ -1,0 +1,84 @@
+/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+/.gradle/buildOutputCleanup/cache.properties
+/.gradle/8.2/checksums/checksums.lock
+/.gradle/config.properties
+/.gradle/8.2/dependencies-accessors/dependencies-accessors.lock
+/.gradle/8.2/executionHistory/executionHistory.lock
+/.gradle/8.2/fileHashes/fileHashes.bin
+/.gradle/8.2/fileHashes/fileHashes.lock
+/.gradle/8.2/dependencies-accessors/gc.properties
+/.gradle/8.2/gc.properties
+/.gradle/vcs-1/gc.properties
+/.gradle/8.2/fileChanges/last-build.bin
+/.gradle/8.2/executionHistory/executionHistory.bin
+/.gradle/file-system.probe
+/.gradle/buildOutputCleanup/outputFiles.bin
+/.gradle/8.2/fileHashes/resourceHashesCache.bin
+/.gradle/8.2/checksums/md5-checksums.bin
+/.gradle/8.2/checksums/sha1-checksums.bin
+/.idea/.gitignore
+/.idea/.name
+/.idea/appInsightsSettings.xml
+/.idea/compiler.xml
+/.idea/deploymentTargetDropDown.xml
+/.idea/gradle.xml
+/.idea/kotlinc.xml
+/.idea/migrations.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+
+# Gradle files
+.gradle/
+
+# Kotlin data
+.kotlin/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# Mac OS X clutter
+*.DS_Store
+
+# Windows clutter
+Thumbs.db
+
+# IDEA/Android Studio project files
+.idea/*
+*.iml
+# whitelist copyright
+!.idea/copyright/
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+
+# Android Profiling
+*.hprof
+

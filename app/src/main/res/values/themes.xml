@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="Base.Theme.Plant" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#28AF6E</item>
+        <item name="colorPrimaryVariant">#21925A</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

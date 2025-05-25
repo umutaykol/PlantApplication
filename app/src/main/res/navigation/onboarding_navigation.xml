@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/onboarding_navigation"
+    app:startDestination="@+id/onboarding_welcomeFragment">
+    <fragment
+        android:id="@+id/onboarding_welcomeFragment"
+        android:name="com.example.plantapp.feature.onboarding.getstarted.GetStartedFragment"
+        android:label="Welcome">
+        <action
+            android:id="@+id/action_getStarted_to_onboardingOne"
+            app:destination="@id/onboarding_oneFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/onboarding_oneFragment"
+        android:name="com.example.plantapp.feature.onboarding.onboarding.OnboardingOneFragment"
+        android:label="Onboarding One">
+        <action
+            android:id="@+id/action_onboardingOne_to_onboardingTwo"
+            app:destination="@id/onboarding_twoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/onboarding_twoFragment"
+        android:name="com.example.plantapp.feature.onboarding.onboarding.OnboardingTwoFragment"
+        android:label="Onboarding Two">
+        <action
+            android:id="@+id/action_onboardingTwo_to_paywall"
+            app:destination="@id/paywallFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/paywallFragment"
+        android:name="com.example.plantapp.feature.onboarding.paywall.PaywallFragment"
+        android:label="Paywall" />
+</navigation>
